@@ -1,7 +1,5 @@
-OpenJFX Docs Samples
-===
 
-
+# OpenJFX Docs Samples
 
 Description
 ---
@@ -13,161 +11,145 @@ The related documentation for each sample can be found [here](https://openjfx.io
 
 For more information go to https://openjfx.io.
 
-
-
 Content
 ---
 
-* [HelloFX samples](#HelloFX-Samples)
-* [Command Line](#Command-Line)
-    - [_Modular samples_](#CLI-Modular-Samples)
-    - [_Non-modular samples_](#CLI-Non-Modular-Samples)
-* [IDEs](#IDEs)
-    - [IntelliJ](#IntelliJ)  
-      [_Modular samples_](#IntelliJ-Modular-Samples)  
-      [_Non-modular samples_](#IntelliJ-Non-Modular-Samples)
-    - [NetBeans](#NetBeans)  
-      [_Modular samples_](#NetBeans-Modular-Samples)  
-      [_Non-modular samples_](#NetBeans-Non-Modular-Samples)
-    - [Eclipse](#Eclipse)  
-      [_Modular samples_](#Eclipse-Modular-Samples)  
-      [_Non-modular samples_](#Eclipse-Non-Modular-Samples)
-    - [Visual Studio Code](#VSCode)  
-      [_Modular samples_](#VSCode-Modular-Samples)  
-      [_Non-modular samples_](#VSCode-Non-Modular-Samples)
-* [License](#License)
-* [Contributing](#Contributing)
+* [HelloFX samples](#hellofx-samples)
+* [Command Line](#command-line)
+    * [_Modular samples_](#cli-modular-samples)
+    * [_Non-modular samples_](#cli-non-modular-samples)
+* [IDEs](#ides)
+    * [IntelliJ](#intellij)  
+      [_Modular samples_](#intellij-modular-samples)  
+      [_Non-modular samples_](#intellij-non-modular-samples)
+    * [NetBeans](#netbeans)  
+      [_Modular samples_](#netbeans-modular-samples)  
+      [_Non-modular samples_](#netbeans-non-modular-samples)
+    * [Eclipse](#eclipse)  
+      [_Modular samples_](#eclipse-modular-samples)  
+      [_Non-modular samples_](#eclipse-non-modular-samples)
+    * [Visual Studio Code](#vscode)  
+      [_Modular samples_](#vscode-modular-samples)  
+      [_Non-modular samples_](#vscode-non-modular-samples)
+* [License](#license)
+* [Contributing](#contributing)
 
-
-
-HelloFX samples<a name="HelloFX-Samples" />
----
+## HelloFX samples
 
 Contains samples of a simple HelloFX class that can be run from command line, with 
 or without build tools.
 
-Build Tool | Sample | Description
----------- | ------ | -----------
-None | [HelloFX project](HelloFX/CLI) | Simple HelloFX class to run on command line.
-Maven | [HelloFX project](HelloFX/Maven) | Simple HelloFX class to run with Maven.
-Gradle | [HelloFX project](HelloFX/Gradle) | Simple HelloFX class to run with Gradle.
+| Build Tool | Sample                            | Description                                  |
+|------------|-----------------------------------|----------------------------------------------|
+| None       | [HelloFX project](HelloFX/CLI)    | Simple HelloFX class to run on command line. |
+| Maven      | [HelloFX project](HelloFX/Maven)  | Simple HelloFX class to run with Maven.      |
+| Gradle     | [HelloFX project](HelloFX/Gradle) | Simple HelloFX class to run with Gradle.     |
 
-
-
-Command Line<a name="Command-Line" />
----
+## Command Line
 
 Contains samples of modular and non-modular projects that can be run from command 
 line, with or without build tools.
 
-### _Modular samples_<a name="CLI-Modular-Samples" />
+### _Modular samples_
 
-Build Tool | Sample | Description
----------- | ------ | -----------
-None | [HelloFX project](CommandLine/Modular/CLI) | Modular project to run on command line.
-Maven | [HelloFX project](CommandLine/Modular/Maven) | Modular project to run with Maven.
-Gradle | [HelloFX project](CommandLine/Modular/Gradle) |  Modular project to run with Gradle.
+| Build Tool | Sample                                        | Description                             |
+|------------|-----------------------------------------------|-----------------------------------------|
+| None       | [HelloFX project](CommandLine/Modular/CLI)    | Modular project to run on command line. |
+| Maven      | [HelloFX project](CommandLine/Modular/Maven)  | Modular project to run with Maven.      |
+| Gradle     | [HelloFX project](CommandLine/Modular/Gradle) | Modular project to run with Gradle.     |
 
-### _Non-modular samples_<a name="CLI-Non-Modular-Samples" />
+### _Non-modular samples_
 
-Build Tool | Sample | Description
----------- | ------ | -----------
-None | [HelloFX project](CommandLine/Non-modular/CLI) | Non-modular project to run on command line.
-Maven | [HelloFX project](CommandLine/Non-modular/Maven) | Non-modular project to run with Maven.
-Gradle | [HelloFX project](CommandLine/Non-modular/Gradle) | Non-modular project to run with Gradle.
+| Build Tool | Sample                                            | Description                                 |
+|------------|---------------------------------------------------|---------------------------------------------|
+| None       | [HelloFX project](CommandLine/Non-modular/CLI)    | Non-modular project to run on command line. |
+| Maven      | [HelloFX project](CommandLine/Non-modular/Maven)  | Non-modular project to run with Maven.      |
+| Gradle     | [HelloFX project](CommandLine/Non-modular/Gradle) | Non-modular project to run with Gradle.     |
 
-
-
-IDEs<a name="IDEs" />
----
+## IDEs
 
 Contains samples of modular and non-modular projects that can be run from an IDE, 
 with or without build tools.
 
-### IntelliJ<a name="IntelliJ" />
+### IntelliJ
 
-#### _Modular samples_<a name="IntelliJ-Modular-Samples" />
+#### _Modular samples_
 
-Build Tool | Sample | Description
----------- | ------ | -----------
-Java | [HelloFX project](IDE/IntelliJ/Modular/Java) | Modular project to run from IntelliJ.
-Maven | [HelloFX project](IDE/IntelliJ/Modular/Maven) | Modular project to run from IntelliJ, with Maven.
-Gradle | [HelloFX project](IDE/IntelliJ/Modular/Gradle) | modular project to run from IntelliJ, with Gradle.
+| Build Tool | Sample                                         | Description                                        |
+|------------|------------------------------------------------|----------------------------------------------------|
+| Java       | [HelloFX project](IDE/IntelliJ/Modular/Java)   | Modular project to run from IntelliJ.              |
+| Maven      | [HelloFX project](IDE/IntelliJ/Modular/Maven)  | Modular project to run from IntelliJ, with Maven.  |
+| Gradle     | [HelloFX project](IDE/IntelliJ/Modular/Gradle) | modular project to run from IntelliJ, with Gradle. |
 
-#### _Non-modular samples_<a name="IntelliJ-Non-Modular-Samples" />
+#### _Non-modular samples_
 
-Build Tool | Sample | Description
----------- | ------ | -----------
-Java | [HelloFX project](IDE/IntelliJ/Non-Modular/Java) | Non-modular project to run from IntelliJ.
-Maven | [HelloFX project](IDE/IntelliJ/Non-Modular/Maven) | Non-modular project to run from IntelliJ, with Maven.
-Gradle | [HelloFX project](IDE/IntelliJ/Non-Modular/Gradle) | Non-modular project to run from IntelliJ, with Gradle.
-
-
-### NetBeans<a name="NetBeans" />
-
-#### _Modular samples_<a name="NetBeans-Modular-Samples" />
-
-Build Tool | Sample | Description
----------- | ------ | -----------
-Java | [HelloFX project](IDE/NetBeans/Modular/Java) | Modular project to run from NetBeans.
-Maven | [HelloFX project](IDE/NetBeans/Modular/Maven) | Modular project to run from NetBeans, with Maven.
-Gradle | [HelloFX project](IDE/NetBeans/Modular/Gradle) | Modular project to run from NetBeans, with Gradle.
-
-#### _Non-modular samples_<a name="NetBeans-Non-Modular-Samples" />
-
-Build Tool | Sample | Description
----------- | ------ | -----------
-Java | [HelloFX project](IDE/NetBeans/Non-Modular/Java) | Non-modular project to run from NetBeans.
-Maven | [HelloFX project](IDE/NetBeans/Non-Modular/Maven) | Non-modular project to run from NetBeans, with Maven.
-Gradle | [HelloFX project](IDE/NetBeans/Non-Modular/Gradle) | Non-modular project to run from NetBeans, with Gradle.
+| Build Tool | Sample                                             | Description                                            |
+|------------|----------------------------------------------------|--------------------------------------------------------|
+| Java       | [HelloFX project](IDE/IntelliJ/Non-Modular/Java)   | Non-modular project to run from IntelliJ.              |
+| Maven      | [HelloFX project](IDE/IntelliJ/Non-Modular/Maven)  | Non-modular project to run from IntelliJ, with Maven.  |
+| Gradle     | [HelloFX project](IDE/IntelliJ/Non-Modular/Gradle) | Non-modular project to run from IntelliJ, with Gradle. |
 
 
-### Eclipse<a name="Eclipse" />
+### NetBeans
 
-#### _Modular samples_<a name="Eclipse-Modular-Samples" />
+#### _Modular samples_
 
-Build Tool | Sample | Description
----------- | ------ | -----------
-Java | [HelloFX project](IDE/Eclipse/Modular/Java) | Modular project to run from Eclipse.
-Maven | [HelloFX project](IDE/Eclipse/Modular/Maven) | Modular project to run from Eclipse, with Maven.
-Gradle | [HelloFX project](IDE/Eclipse/Modular/Gradle) | Modular project to run from Eclipse, with Gradle.
+| Build Tool | Sample                                         | Description                                        |
+|------------|------------------------------------------------|----------------------------------------------------|
+| Java       | [HelloFX project](IDE/NetBeans/Modular/Java)   | Modular project to run from NetBeans.              |
+| Maven      | [HelloFX project](IDE/NetBeans/Modular/Maven)  | Modular project to run from NetBeans, with Maven.  |
+| Gradle     | [HelloFX project](IDE/NetBeans/Modular/Gradle) | Modular project to run from NetBeans, with Gradle. |
 
-#### _Non-modular samples_<a name="Eclipse-Non-Modular-Samples" />
+#### _Non-modular samples_
 
-Build Tool | Sample | Description
----------- | ------ | -----------
-Java | [HelloFX project](IDE/Eclipse/Non-Modular/Java) | Non-modular project to run from Eclipse.
-Maven | [HelloFX project](IDE/Eclipse/Non-Modular/Maven) | Non-modular project to run from Eclipse, with Maven.
-Gradle | [HelloFX project](IDE/Eclipse/Non-Modular/Gradle) | Non-modular project to run from Eclipse, with Gradle.
-
-
-### Visual Studio Code<a name="VSCode" />
-
-#### _Modular samples_<a name="VSCode-Modular-Samples" />
-
-Build Tool | Sample | Description
----------- | ------ | -----------
-Maven | [HelloFX project](IDE/VSCode/Modular/Maven) | Modular project to run from Visual Studio Code, with Maven.
-Gradle | [HelloFX project](IDE/VSCode/Modular/Gradle) | Modular project to run from Visual Studio Code, with Gradle.
-
-#### _Non-modular samples_<a name="VSCode-Non-Modular-Samples" />
-
-Build Tool | Sample | Description
----------- | ------ | -----------
-Java | [HelloFX project](IDE/VSCode/Non-Modular/Java) | Non-modular project to run from Visual Studio Code.
-Maven | [HelloFX project](IDE/VSCode/Non-Modular/Maven) | Non-modular project to run from Visual Studio Code, with Maven.
-Gradle | [HelloFX project](IDE/VSCode/Non-Modular/Gradle) | Non-modular project to run from Visual Studio Code, with Gradle.
+| Build Tool | Sample                                             | Description                                            |
+|------------|----------------------------------------------------|--------------------------------------------------------|
+| Java       | [HelloFX project](IDE/NetBeans/Non-Modular/Java)   | Non-modular project to run from NetBeans.              |
+| Maven      | [HelloFX project](IDE/NetBeans/Non-Modular/Maven)  | Non-modular project to run from NetBeans, with Maven.  |
+| Gradle     | [HelloFX project](IDE/NetBeans/Non-Modular/Gradle) | Non-modular project to run from NetBeans, with Gradle. |
 
 
+### Eclipse
 
-License<a name="License" />
----
+#### _Modular samples_
+
+| Build Tool | Sample                                        | Description                                       |
+|------------|-----------------------------------------------|---------------------------------------------------|
+| Java       | [HelloFX project](IDE/Eclipse/Modular/Java)   | Modular project to run from Eclipse.              |
+| Maven      | [HelloFX project](IDE/Eclipse/Modular/Maven)  | Modular project to run from Eclipse, with Maven.  |
+| Gradle     | [HelloFX project](IDE/Eclipse/Modular/Gradle) | Modular project to run from Eclipse, with Gradle. |
+
+#### _Non-modular samples_
+
+| Build Tool | Sample                                            | Description                                           |
+|------------|---------------------------------------------------|-------------------------------------------------------|
+| Java       | [HelloFX project](IDE/Eclipse/Non-Modular/Java)   | Non-modular project to run from Eclipse.              |
+| Maven      | [HelloFX project](IDE/Eclipse/Non-Modular/Maven)  | Non-modular project to run from Eclipse, with Maven.  |
+| Gradle     | [HelloFX project](IDE/Eclipse/Non-Modular/Gradle) | Non-modular project to run from Eclipse, with Gradle. |
+
+
+### Visual Studio Code
+
+#### _Modular samples_
+
+| Build Tool | Sample                                       | Description                                                  |
+|------------|----------------------------------------------|--------------------------------------------------------------|
+| Maven      | [HelloFX project](IDE/VSCode/Modular/Maven)  | Modular project to run from Visual Studio Code, with Maven.  |
+| Gradle     | [HelloFX project](IDE/VSCode/Modular/Gradle) | Modular project to run from Visual Studio Code, with Gradle. |
+
+#### _Non-modular samples_
+
+| Build Tool | Sample                                           | Description                                                      |
+|------------|--------------------------------------------------|------------------------------------------------------------------|
+| Java       | [HelloFX project](IDE/VSCode/Non-Modular/Java)   | Non-modular project to run from Visual Studio Code.              |
+| Maven      | [HelloFX project](IDE/VSCode/Non-Modular/Maven)  | Non-modular project to run from Visual Studio Code, with Maven.  |
+| Gradle     | [HelloFX project](IDE/VSCode/Non-Modular/Gradle) | Non-modular project to run from Visual Studio Code, with Gradle. |
+
+## License
 
 This project is licensed under [BSD 3-Clause](LICENSE).
 
-
-Contributing<a name="Contributing" />
----
+## Contributing
 
 This project welcomes all types of contributions and suggestions. 
 We encourage you to report issues, create suggestions and submit 
